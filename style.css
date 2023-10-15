@@ -1,0 +1,151 @@
+body{
+    margin: 0px;
+    position: relative;
+}
+.navigation{
+    position: sticky;
+}
+ul.list {
+    display: flex;  
+    list-style: none;
+    width: 85%;
+}
+li{
+
+    padding: 10px;
+    color: black;
+}
+.logo{
+    height: 50px;
+    
+}
+.nav{
+
+    display: flex;
+    align-items: center;
+}
+.right-btn{
+    float: right !important;
+}
+button.btn {
+    padding: 10px 15px;
+    background-color: #ffbd59;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+}
+.btn:hover{
+    background-color: black;
+}
+.Banner{
+    height: 600px;
+    width: 100%;
+    background-image: url('bnr1.jpg');
+    background-size: cover;
+    margin-top: -45px;
+}
+.heading1{
+    color: white;
+    text-align: center;
+    padding-top: 182px;
+    font-family: 'Lobster';
+    font-size: 70px;
+}
+.heading2{
+    text-align: center;
+    color: lightgrey;
+    font-size: 19px;
+}
+.active
+{
+    color: #ffbd59;
+}
+.off{
+
+    color: #ffbd59;
+    font-size: 60px;
+    padding-top: 56px;
+}       
+.card{
+    width: 270px;
+    border: 3px;
+    border-radius: 12px;
+    padding: 15px;
+    border: 3px solid lightgray;
+}
+.card-img{
+    height: 259px;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.atc{
+    font-size: 15px;
+    padding: 13px 29px;
+    border: none;
+    border-radius: 40px;
+    background-color: #ffbd59;
+}
+.atc:hover{
+    background-color: black;
+    color: white;
+}
+.okay{
+    margin-top: 28px;
+   justify-content: center;
+    display: flex;
+ gap: 20px;
+ text-align: center;
+}
+.Special{
+    font-size: 41px;
+    margin-top: 51px;
+    font-family: "Lucida Handwriting", cursive;font-size: 41px;
+}
+.pd-50{
+    padding-bottom: 50px;
+}
+.foot{
+
+    width:100%;
+    background-color: #eee;
+    padding: 50px 0px;
+}
+.df{
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 20px;
+}
+span{
+    color: #ffbd59;
+}
+.last{
+    margin-bottom: -46px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px;
+}
+.p{
+    margin-top: 106px;
+    margin-left: 40%;
+    width: 350px;
+    border: none solid lightblue;
+}
+.enter{
+    width: 253px;
+    padding-bottom: 12px;
+    margin-bottom: 10px;
+}
+.sbtn{
+    margin-bottom: 18px;
+    font-size: 16px;
+    width: 171px;
+    padding: 7px 16px;
+    border: none;
+    border-radius: 54px;
+    background-color: #ffbd59;
+}
+.a{
+    text-decoration: none;
+    color: black;
+    
+}
